@@ -1,0 +1,16 @@
+{
+  "name": "cw2-functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.9.0",
+    "@azure/functions": "^4.0.0",
+    "@azure/storage-blob": "^12.29.1",
+    "axios": "^1.13.2"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
